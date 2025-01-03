@@ -34,6 +34,11 @@
 
 <br><br>
 
+## Ports
+The used ports are the default ports for samba and netbios, which are: <strong>445, 137, 138</strong> and strong>139</strong>. Only the 445 and 139 are strictly needed for correct use.
+
+<br><br>
+
 ## Environment variables
 <h2>Container's scope specific variables</h2>
 <h4>SHARE</h4> 
