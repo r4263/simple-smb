@@ -10,11 +10,11 @@
 <br><br>
 
 ## Examples
- Share a folder publicly: <code>docker run -d -it -e SHARE="share_name_here" -v </path/to/local/folder>:/srv/samba/share -p 445:445 -p 139:139 -p 138:138 -p 137:137 --name <container_name> mayconjung:simple-smb</code>
+ Share a folder publicly: <code>docker run -d -it -e SHARE="share_name_here" -v </path/to/local/folder>:/srv/samba/share -p 445:445 -p 139:139 -p 138:138 -p 137:137 --name <container_name> mayconjung/simple-smb</code>
 
- Share a folder private users: <code>docker run -d -it -e SHARE="share_name_here" -e USER="user" -e USER_PASSWORD="password" -v </path/to/local/folder>:/srv/samba/share -p 445:445 -p 139:139 -p 138:138 -p 137:137 --name <container_name> mayconjung:simple-smb</code>
+ Share a folder private users: <code>docker run -d -it -e SHARE="share_name_here" -e USER="user" -e USER_PASSWORD="password" -v </path/to/local/folder>:/srv/samba/share -p 445:445 -p 139:139 -p 138:138 -p 137:137 --name <container_name> mayconjung/simple-smb</code>
 
- Share a folder a list of users: <code>docker run -d -it -e SHARE="share_name_here" -e USER="user1,user2,user3" -e USER_PASSWORD="pass1,pass2,pass3" -v </path/to/local/folder>:/srv/samba/share -p 445:445 -p 139:139 -p 138:138 -p 137:137 --name <container_name> mayconjung:simple-smb</code>
+ Share a folder a list of users: <code>docker run -d -it -e SHARE="share_name_here" -e USER="user1,user2,user3" -e USER_PASSWORD="pass1,pass2,pass3" -v </path/to/local/folder>:/srv/samba/share -p 445:445 -p 139:139 -p 138:138 -p 137:137 --name <container_name> mayconjung/simple-smb</code>
 
 <br><br>
 
